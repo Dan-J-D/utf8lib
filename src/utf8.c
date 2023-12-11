@@ -105,7 +105,7 @@ void print_bits(char ch)
 		printf("%s", ch & (1 << (i - 1)) ? "1" : "0");
 }
 
-unsigned int utf8_decode_len(_UTF8_IN_ unsigned char *str)
+unsigned int utf8_decode_len(_UTF8_IN_ const char *str)
 {
 	if (!str)
 		return 0;

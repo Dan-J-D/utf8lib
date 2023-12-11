@@ -37,7 +37,7 @@ bool utf8_encode(_UTF8_IN_ const wchar_t *wstr,
  * @param str input encoded string
  * @return unsigned int length of decoded string (not including null terminator)
  */
-unsigned int utf8_decode_len(_UTF8_IN_ unsigned char *str);
+unsigned int utf8_decode_len(_UTF8_IN_ const char *str);
 
 /**
  * @brief encoded utf8 to wide string
