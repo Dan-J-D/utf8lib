@@ -21,6 +21,6 @@ project(utf8tests)
 include_directories(../include/)
 
 add_executable(utf8test
-	utf8.c
+	../src/utf8.c
 	tests.c
 )

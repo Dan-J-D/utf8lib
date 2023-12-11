@@ -1,13 +1,13 @@
 # ut8flib
 A Simple Pure C99 utf8 encoder and decoder.
 
-### Build with CMake For Release X64:
+### Build Tests with CMake:
 ```bash
-cmake -S src -B build
+cmake -S tests -B build
 cmake --build build
 ```
 
 ### Build with CMakeAuto
 ```bash
-cmakeauto build
+cmakeauto build -s tests
 ```
