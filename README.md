@@ -7,7 +7,10 @@ cmake -S tests -B build
 cmake --build build
 ```
 
-### Build with CMakeAuto
+### Build Tests with CMakeAuto
 ```bash
 cmakeauto build -s tests
 ```
+
+## References
+- [RFC 3629](https://datatracker.ietf.org/doc/html/rfc3629) - UTF-8, a transformation format of ISO 10646
