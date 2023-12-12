@@ -1,4 +1,4 @@
-# ut8flib
+# utf8lib
 A Simple Pure C99 utf8 encoder and decoder.
 
 ### Build Tests with CMake:
